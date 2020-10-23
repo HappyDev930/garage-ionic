@@ -1,0 +1,40 @@
+<ion-toolbar class="custom-header">
+  <ion-buttons slot="start">
+    <ion-button>
+      <ion-icon name="chevron-back-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="end">
+    <ion-button>
+      <ion-icon slot="icon-only" ios="ellipsis-vertical" md="ellipsis-vertical"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
+  <ion-title class="custom-header-title">{{'Joes Garage Sale'}}</ion-title>
+</ion-toolbar>
+<ion-content>
+  <img style="width: 100%; height: 200px;" src="https://macnfoodtruck.com/wp-content/uploads/2019/05/Chef-Uniforms-For-The-Restaurant-Business.jpg" />
+  <ion-card style="width: 100%; margin: auto; padding: 10px;">
+    <p>In moving plans, I sell everything</p>
+    <p><span>Categories:</span> Shop All</p>
+    <p><span>Date: From: </span>{{'October 3'}} <span>- To</span> {{'October 4'}}</p>
+    <p><span>Time: From: </span>{{'10:00'}} <span>- To</span> {{'18:00'}}</p>
+  </ion-card>
+</ion-content>
+
+<ion-tabs class="sub-tab">
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="schedule">
+      <ion-icon name="share-social"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="speakers">
+      <ion-icon name="heart"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map">
+      <ion-icon name="mail"></ion-icon>
+    </ion-tab-button>
+   
+  </ion-tab-bar>
+</ion-tabs>

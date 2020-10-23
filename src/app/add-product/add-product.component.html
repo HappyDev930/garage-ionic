@@ -1,0 +1,55 @@
+<app-garage-header></app-garage-header>
+<ion-content class="add-product">
+    <ion-row style="padding-top: 30px">
+        <ion-col size="10" offset="1">
+            <ion-input class="ion-text-center" placeholder="Enter your Title"></ion-input>
+            
+            <ion-input placeholder="Enter your Price">
+                <ion-label>
+                    <ion-icon name="logo-usd"></ion-icon>
+                </ion-label>
+            </ion-input>
+
+            <ion-textarea class="ion-text-center" placeholder="Enter your Description"></ion-textarea>
+
+            <select>
+                <option>Clothing</option>
+                <option>Baby</option>
+                <option>Music</option>
+            </select>
+        </ion-col>
+        
+    </ion-row>
+    <ion-grid>
+        <p>Add Photos</p>
+        <ion-row class="add-photos">
+            <ion-col size="10" offset="1">
+                <div>
+                    <label for="input1">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                    </label>
+                    <input id="input1" type="file" style="display: none;"/> 
+                </div>
+    
+                <div>
+                    <label for="input2">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                    </label>
+                    <input id="input2" type="file" style="display: none;"/> 
+                </div>
+    
+                <div>
+                    <label for="input3">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                    </label>
+                    <input id="input3" type="file" style="display: none;"/> 
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-row>
+        <button class="save-btn">Save</button>
+    </ion-row>
+</ion-content>
+<app-navigation-tab></app-navigation-tab>

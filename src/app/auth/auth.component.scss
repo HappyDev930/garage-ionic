@@ -1,0 +1,46 @@
+.auth-container {
+    .top-line {
+        background-image: linear-gradient(to right, yellow, orangered);
+        width: 100%;
+        height: 70px;
+    }
+
+    ion-card-header {
+        padding-top: 5px;
+    }
+
+    ion-segment-button {
+        color: #92949c;
+        font-weight: 600;
+    }
+    
+    .auth-select {
+        --color-checked: orangered;
+        --color-focused: orangered;
+        --color-hover: orangered;
+        --border-color:  orangered;
+    }
+    
+    ion-input {
+        background: gainsboro;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+
+    .auth-btn {
+        background: linear-gradient(to top, rgb(255, 166, 0), orangered) !important;
+        padding: 10px 50px;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px auto 0px;
+    }
+
+    h3 {
+        color: #92949c;
+        text-align: center;
+        width: 100%;
+    }
+}

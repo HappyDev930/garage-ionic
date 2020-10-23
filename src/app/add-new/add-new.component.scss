@@ -1,0 +1,48 @@
+.product {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrQ_4pmqC3aDVPkrjaTpVtmrdYKpGOEjltIw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+
+    .add-new-title {
+        font-size: 25px;
+        width: 100%;
+        background: linear-gradient(to right, orangered, transparent) !important;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        padding: 0px 10px;
+        
+        p {
+            margin: 10px 10px 10px 0px;
+        }
+    }
+}
+
+.garage-sale {
+    background-image: url('https://www.shpd.org/wp-content/uploads/2016/12/Garage-Sale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+
+    .add-new-title {
+        font-size: 25px;
+        width: 100%;
+        background: linear-gradient(to right, transparent, orangered) !important;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        padding: 0px 10px;
+
+        p {
+            margin: 10px 10px 10px 0px;
+            float: right;
+        }
+    }
+}

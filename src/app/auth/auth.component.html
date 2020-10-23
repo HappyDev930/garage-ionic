@@ -1,0 +1,148 @@
+<ion-content class="auth-container">
+  <div class="top-line"></div>
+  <ion-row>
+    <ion-col size="6" offset="3">
+      <ion-img src="../assets/images/logo.png"></ion-img>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-card>
+        <ion-card-header>
+          <ion-segment (ionChange)="segmentChanged($event)" mode="md" value="login">
+            <ion-segment-button class="auth-select" value="login">
+              <ion-label>Log In</ion-label>
+            </ion-segment-button>
+            <ion-segment-button class="auth-select" value="signup">
+              <ion-label>Sign Up</ion-label>
+            </ion-segment-button>
+          </ion-segment>
+        </ion-card-header>
+        <ion-card-content>
+          <ng-container *ngIf="type == 'login'">
+            <form [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+              <ion-row>
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/user.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  class="ion-text-center" 
+                  formControlName="username" 
+                  placeholder="Enter your Username"
+                  [(ngModel)]="loginData.username"
+                ></ion-input>
+              </ion-row>
+              <ion-row style="margin-top: 10px">
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/lock.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  type="password" 
+                  class="ion-text-center" 
+                  formControlName="password" 
+                  placeholder="Enter your Password"
+                  [(ngModel)]="loginData.password"
+                ></ion-input>
+              </ion-row>
+              <ion-row>
+                <ion-router-link href="#" color="medium" style="text-align: center; width: 100%; margin-top: 10px;">Forgot Password?</ion-router-link>
+                <button class="auth-btn" type="submit">Log In</button>
+              </ion-row>
+            </form>
+          <!-- <ng-container> -->
+            <ion-row style="margin-top: 20px">
+              <h3>Or Login With</h3>
+            </ion-row>
+            <ion-row>
+              <div style="margin: 10px auto">
+                <ion-icon name="logo-twitter" style="color: cornflowerblue; font-size: 40px;"></ion-icon>
+                <ion-icon name="logo-facebook" style="color: lawngreen; font-size: 40px;" (click)="facebookLogin()"></ion-icon>
+                <ion-icon name="logo-instagram" style="color: salmon; font-size: 40px;"></ion-icon>
+                <ion-icon name="logo-google" style="color: red; font-size: 40px;" (click)="loginWithGoogle()"></ion-icon>
+              </div>
+            </ion-row>
+          </ng-container>
+          
+
+          <ng-container *ngIf="type === 'signup'">
+          <!-- <ng-container> -->
+            <form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+              <ion-row>
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/user.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  class="ion-text-center" 
+                  formControlName="username" 
+                  placeholder="Enter your Username"
+                  [(ngModel)]="registerData.username"
+                ></ion-input>
+              </ion-row>
+              <ion-row>
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/email.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  class="ion-text-center" 
+                  formControlName="email" 
+                  placeholder="Enter your Email"
+                  [(ngModel)]="registerData.email"
+                ></ion-input>
+              </ion-row>
+              <ion-row>
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/lock.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  type="password" 
+                  class="ion-text-center" 
+                  formControlName="password" 
+                  placeholder="Enter your Password"
+                  [(ngModel)]="registerData.password"
+                ></ion-input>
+              </ion-row>
+              <ion-row>
+                <ion-label>
+                  <ion-thumbnail>
+                    <img src="../../assets/images/unlock.png" />
+                  </ion-thumbnail>
+                </ion-label>
+                <ion-input 
+                  type="password" 
+                  class="ion-text-center" 
+                  formControlName="confirm_password" 
+                  placeholder="Confirm Password"
+                  [(ngModel)]="registerData.confirm_password"
+                ></ion-input>
+              </ion-row>
+              <ion-row>
+                <button class="auth-btn" type="submit">Sign Up</button>
+              </ion-row>
+              <ion-row style="margin-top: 20px">
+                <h3>Or Signin With</h3>
+              </ion-row>
+              <ion-row>
+                <div style="margin: 10px auto">
+                  <ion-icon name="logo-twitter" style="color: cornflowerblue; font-size: 40px;"></ion-icon>
+                  <ion-icon name="logo-facebook" style="color: lawngreen; font-size: 40px;"></ion-icon>
+                  <ion-icon name="logo-instagram" style="color: salmon; font-size: 40px;"></ion-icon>
+                  <ion-icon name="logo-google" style="color: red; font-size: 40px;"></ion-icon>
+                </div>
+              </ion-row>
+            </form>
+          </ng-container>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

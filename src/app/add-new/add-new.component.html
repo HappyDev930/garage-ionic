@@ -1,0 +1,19 @@
+<app-garage-header></app-garage-header>
+<ion-content>
+    <ion-row style="margin-top: 30px;">
+        <ion-card class="product" [routerLink]="['/add-product']">
+            <div class="add-new-title">
+                <p>Product</p>
+            </div>
+        </ion-card>
+    </ion-row>
+
+    <ion-row style="margin-top: 30px;">
+        <ion-card class="garage-sale" [routerLink]="['/add-garage-sale']">
+            <div class="add-new-title">
+                <p>Garage Sale</p>
+            </div>
+        </ion-card>
+    </ion-row>
+</ion-content>
+<app-navigation-tab></app-navigation-tab>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>192598906000-q54g99ccun6dd0eoembn5rr3opi3a88a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.192598906000-q54g99ccun6dd0eoembn5rr3opi3a88a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>192598906000-sfuf24kctgdq7ha34nhnbjpktr5b9m6k.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGccjW2QItyXu6eEX3ii9k3vGCoZvvOPk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>192598906000</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kwsystems.garage</string>
+	<key>PROJECT_ID</key>
+	<string>garage-sales-b2371</string>
+	<key>STORAGE_BUCKET</key>
+	<string>garage-sales-b2371.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:192598906000:ios:9542c56acc104059</string>
+	<key>DATABASE_URL</key>
+	<string>https://garage-sales-b2371.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-0187834556320329~9426410687</string>
+</dict>
+</plist>

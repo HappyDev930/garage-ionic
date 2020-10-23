@@ -1,0 +1,31 @@
+<app-garage-header></app-garage-header>
+<ion-content class="profile-content">
+    <ion-row>
+        <img class="profile-img" src="https://www.pngitem.com/pimgs/m/404-4042710_circle-profile-picture-png-transparent-png.png"/>
+        <!-- <ion-icon name="create" style="color: orangered; position: absolute;"></ion-icon> -->
+    </ion-row>
+    <ion-list>
+        <ion-card>
+            <ion-card-content>
+                Tom Montana
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-content>
+                tom.montana@gmail.com
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-content>
+                Change Password
+            </ion-card-content>
+        </ion-card>
+
+        <ion-card (click)="logout()">
+            <ion-card-content>
+                Log out
+            </ion-card-content>
+        </ion-card>
+    </ion-list>
+</ion-content>
+<app-navigation-tab></app-navigation-tab>

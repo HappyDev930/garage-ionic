@@ -1,0 +1,116 @@
+<app-garage-header></app-garage-header>
+<ion-content mod="md"> 
+  <ion-row>
+    <h4 style="padding-left: 10px">Garage Sales <span style="color: orangered">Near You</span></h4>
+    <ion-slides pager="true" [options]="slideOpts1" #slides1>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnltfxyRHuEEUE4gIZp9fr77Q8goigP7mQ6Q&usqp=CAU"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://www.birthdaywishes.expert/wp-content/uploads/2015/10/good-morning-image-sunflower.jpg"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118340244_425044808468890_7761212774122692196_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_ohc=MYs8twtMgRQAX8voANi&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=4abc2a546bb172293d6f82d0ca36eea6&oe=5F9A31F7"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://images-na.ssl-images-amazon.com/images/I/610LDzZhsUL.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <div class="navigation-btn">
+      <ion-icon name="chevron-back-circle" id="previous1" (click)="next1()"></ion-icon>
+      <ion-icon name="chevron-forward-circle" id="next1"></ion-icon>
+    </div>
+  </ion-row>
+  <ion-row>
+    <h4 style="padding-left: 10px">Products <span style="color: orangered">Near You</span></h4>
+    <ion-slides pager="true" [options]="slideOpts2" #slides2>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnltfxyRHuEEUE4gIZp9fr77Q8goigP7mQ6Q&usqp=CAU"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://www.birthdaywishes.expert/wp-content/uploads/2015/10/good-morning-image-sunflower.jpg"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118340244_425044808468890_7761212774122692196_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_ohc=MYs8twtMgRQAX8voANi&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=4abc2a546bb172293d6f82d0ca36eea6&oe=5F9A31F7"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://images-na.ssl-images-amazon.com/images/I/610LDzZhsUL.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <div class="navigation-btn">
+      <ion-icon name="chevron-back-circle" id="previous2"></ion-icon>
+      <ion-icon name="chevron-forward-circle" id="next2"></ion-icon>
+    </div>
+  </ion-row>
+  <ion-row>
+    <h4 style="padding-left: 10px">Categories <span style="color: orangered">Baby Stuff</span></h4>
+    <ion-slides pager="true" [options]="slideOpts3" #slides3>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnltfxyRHuEEUE4gIZp9fr77Q8goigP7mQ6Q&usqp=CAU"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://www.birthdaywishes.expert/wp-content/uploads/2015/10/good-morning-image-sunflower.jpg"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118340244_425044808468890_7761212774122692196_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_ohc=MYs8twtMgRQAX8voANi&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=4abc2a546bb172293d6f82d0ca36eea6&oe=5F9A31F7"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [routerLink]="['/listing']">
+          <ion-card-content class="slide-item">
+            <ion-img style="width: 70px; height: 70px;" src="https://images-na.ssl-images-amazon.com/images/I/610LDzZhsUL.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <div class="navigation-btn">
+      <ion-icon name="chevron-back-circle" id="previous3"></ion-icon>
+      <ion-icon name="chevron-forward-circle" id="next3"></ion-icon>
+    </div>
+
+  </ion-row>
+</ion-content>
+<app-navigation-tab></app-navigation-tab>

@@ -1,0 +1,19 @@
+.slide-item {
+  padding: 0px;
+}
+
+.navigation-btn {
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%;
+  margin-top: -60px;
+  color: #fa9723;
+  font-weight: 700;
+  font-size: 35px;
+
+  ion-icon {
+    cursor: pointer;
+    z-index: 999;
+  }
+}
+

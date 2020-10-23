@@ -1,0 +1,17 @@
+<ion-header class="custom-header" mod="ios">
+  <ion-icon name="chevron-back" class="navigation-btn" (click)="previousNav()"></ion-icon>
+  <ion-title class="custom-header-title">
+    {{
+      title === 'home' ? 
+      'Home' : title === 'garage-sales' ? 
+      'Garage Sales' : title === 'categories' ? 
+      'Categories' : title === 'settings' ?
+      'Settings' : title === 'products' ?
+      'Products' : title === 'add-new' ?
+      'Add New' : title === 'add-garage-sale' ?
+      'Garage Sale' : title === 'add-product' ?
+      'Product' : title === 'profile' ?
+      'Profile' : ''
+    }}
+  </ion-title>
+</ion-header>

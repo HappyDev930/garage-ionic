@@ -1,0 +1,41 @@
+.input-box {
+    width: 80%;
+    background: white;
+    border: 1px solid rgba(#f0f0f0, 0.6);
+    border-bottom: none !important;
+    border-radius: 20px;
+    margin: -20px auto 0px;
+    z-index: 999;
+    box-shadow: 2px 2px 2px 2px rgba(#000000, 0.1);
+
+    ion-label {
+        margin: auto;
+    }
+
+    ion-icon {
+        color: orangered;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .item-inner{
+        border-style: unset !important;
+    }
+
+    :host(.item-interactive.item-has-focus) {
+        --highlight-background: transparent;
+    }
+}
+
+.categories-item {
+    padding: 0px;
+}
+
+
+.category-item-title {
+    width: 100%;
+    background: linear-gradient(to right, orangered, transparent) !important;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,121 @@
+.add-garage-sale {
+
+    ion-textarea {
+        background: gainsboro;
+    }
+
+    ion-input {
+        background: gainsboro;
+        // padding-left: 20px !important;
+        margin-top: 10px;
+
+        ::ng-deep {
+            input {
+                ::-webkit-input-placeholder {
+                    text-align: center;
+                 }
+                 
+                 :-moz-placeholder { /* Firefox 18- */
+                    text-align: center;  
+                 }
+                 
+                 ::-moz-placeholder {  /* Firefox 19+ */
+                    text-align: center;  
+                 }
+                 
+                 :-ms-input-placeholder {  
+                    text-align: center; 
+                 }
+            }
+        } 
+
+     
+    }
+
+    .ion-item {
+        ion-label {
+            --color: orange;
+
+            ion-icon {
+                color: orangered !important;
+            }
+        }
+    }
+
+    select {
+        color: rgb(141, 141, 141);
+        border: none;
+        background: gainsboro;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        // background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    }
+
+    ion-row {
+
+        display: flex;
+        justify-content: center;
+
+        .save-btn {
+            background: linear-gradient(to top, rgb(255, 166, 0), orangered) !important;
+            padding: 10px 50px;
+            border-radius: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 10px auto 0px !important;
+        }
+    }
+
+    .add-photos {
+
+        padding-top: 0px;
+        ion-col {
+
+            display: flex;
+            justify-content: space-between;
+
+            div {
+        
+                width: 70px;
+                height: 70px;
+
+                label {
+                    background: var(--ion-card-background, var(--ion-item-background, var(--ion-background-color, #fff)));
+                    color: var(--ion-card-color, var(--ion-item-color, var(--ion-color-step-600, #666666)));
+                    border-radius: 8px;
+                    transform: translateZ(0px);
+                    transition: transform 500ms cubic-bezier(0.12, 0.72, 0.29, 1) 0s, -webkit-transform 500ms cubic-bezier(0.12, 0.72, 0.29, 1) 0s;
+                    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+                    padding: 8px;
+                    display: flex;
+                    // border: black solid 1px;
+                    // border-radius: 10px;
+                }
+        
+                ion-icon {
+                    margin: auto;
+                    font-size: 50px;
+                    color: orangered !important;
+                }
+            }
+        }
+    }
+
+    ion-col {
+        margin: auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    ion-datetime {
+        background: gainsboro;
+    }
+
+}

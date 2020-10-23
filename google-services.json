@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "192598906000",
+    "firebase_url": "https://garage-sales-b2371.firebaseio.com",
+    "project_id": "garage-sales-b2371",
+    "storage_bucket": "garage-sales-b2371.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192598906000:android:bf0035e2837e573a",
+        "android_client_info": {
+          "package_name": "com.kcexp.garagesales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192598906000-sfuf24kctgdq7ha34nhnbjpktr5b9m6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcexp.garagesales",
+            "certificate_hash": "d0e565c33c837234d835bfcd6cff31fb96264eee"
+          }
+        },
+        {
+          "client_id": "192598906000-kp1rilv816u907ibrr25psngrlp2edc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcexp.garagesales",
+            "certificate_hash": "746d4c2871d768eb1fcc4dcd1a0797ee5011416d"
+          }
+        },
+        {
+          "client_id": "192598906000-q3prbmjgm1cr68otoci9icus1uno4asf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcexp.garagesales",
+            "certificate_hash": "5ee9e925c0b45a4a6aa71f8d9fd964be077accdd"
+          }
+        },
+        {
+          "client_id": "192598906000-mt4efa9trfdebholk1i1mjk483sdsf90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhalTGgVAKUVvy3CCjrTNO0sBzM1SOWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192598906000-mt4efa9trfdebholk1i1mjk483sdsf90.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "192598906000-q54g99ccun6dd0eoembn5rr3opi3a88a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kwsystems.garage",
+                "app_store_id": "1080004581"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-0187834556320329~6770067888"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<app-garage-header></app-garage-header>
+<ion-content>
+    <ion-list class="setting-lists">
+        <ion-card [routerLink]="['/profile']">
+            <ion-item >
+                <ion-icon name="person"></ion-icon>
+                <ion-label>
+                    <h3>Profile</h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card>
+            <ion-item>
+                <ion-icon name="list"></ion-icon>
+                <ion-label>
+                    <h3>Listing</h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card >
+            <ion-item>
+                <ion-icon name="heart"></ion-icon>
+                <ion-label>
+                    <h3>Saved</h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card >
+            <ion-item>
+                <ion-icon name="notifications"></ion-icon>
+                <ion-label>
+                    <h3>Notifications</h3>
+                </ion-label>
+                <ion-toggle mod="md"></ion-toggle>
+            </ion-item>
+        </ion-card>
+
+        <ion-card >
+            <ion-item>
+                <ion-icon name="shield-checkmark"></ion-icon>
+                <ion-label>
+                    <h3>Privacy Policy</h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card >
+            <ion-item>
+                <ion-icon name="chevron-down-circle"></ion-icon>
+                <ion-label>
+                    <h3>Terms & Condition</h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card >
+            <ion-item>
+                <ion-icon name="mail"></ion-icon>
+                <ion-label>
+                    <h3>Messages <ion-badge color="warning">3</ion-badge></h3>
+                </ion-label>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </ion-item>
+        </ion-card>
+    </ion-list>
+</ion-content>
+<app-navigation-tab></app-navigation-tab>

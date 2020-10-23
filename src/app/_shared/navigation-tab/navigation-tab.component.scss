@@ -1,0 +1,32 @@
+ion-tab-button {
+    color:  #ed6605;
+    ion-icon {
+        --color-selected: #fa9723 !important;
+    }
+}
+
+ion-icon {
+    font-size: 30px;
+}
+
+.circle-icon {
+    font-size: 70px;
+}
+
+ion-tab-button:focus {
+    ion-icon {
+        color:  #fa9723 !important;
+    }
+}
+
+ion-tab-button:hover {
+    ion-icon {
+        color:  #fa9723 !important;
+    }
+}
+
+ion-tab-button:active {
+    ion-icon {
+        color:  #fa9723 !important;
+    }
+}
